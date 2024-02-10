@@ -1,0 +1,17 @@
+.resumBox {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+#react-doc-viewer{
+     border-radius: 20px;
+}
+
+#pdf-controls{
+    display: none;
+}
+
+#doc {
+    line-height: normal;
+    padding-left: 10px;
+    background-color: rgb(255, 255, 255);
+}

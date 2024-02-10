@@ -1,0 +1,70 @@
+[
+    {
+        "logoPath": "/skillLogo/React.png",
+        "tital": "React"
+    },
+    {
+        "logoPath": "/skillLogo/Express.png",
+        "tital": "ExpressJs"
+    },
+    {
+        "logoPath": "/skillLogo/JavaScript.svg",
+        "tital": "JavaScript"
+    },
+    {
+        "logoPath": "/skillLogo/NodeJs.svg",
+        "tital": "NodeJs"
+    },
+    {
+        "logoPath": "/skillLogo/Git.svg",
+        "tital": "Git"
+    },
+    {
+        "logoPath": "/skillLogo/Github.svg",
+        "tital": "GitHub"
+    },
+    {
+        "logoPath": "/skillLogo/Html.png",
+        "tital": "Html"
+    },
+    {
+        "logoPath": "/skillLogo/Css.png",
+        "tital": "Css"
+    },
+    {
+        "logoPath": "/skillLogo/Mongo.svg",
+        "tital": "MongoDB"
+    },
+    {
+        "logoPath": "/skillLogo/Redux.svg",
+        "tital": "Redux"
+    },
+    {
+        "logoPath": "/skillLogo/Bootstrap.svg",
+        "tital": "Bootstrap"
+    },
+    {
+        "logoPath": "/skillLogo/Typescript.svg",
+        "tital": "TypeScript"
+    },
+    {
+        "logoPath": "/skillLogo/Api.png",
+        "tital": "API"
+    },
+    {
+        "logoPath": "/skillLogo/Figma.png",
+        "tital": "Figma"
+    },
+    {
+        "logoPath": "/skillLogo/Cpp.png",
+        "tital": "C++"
+    },
+    {
+        "logoPath": "/skillLogo/Vscode.svg",
+        "tital": "VS Code"
+    },
+    {
+        "logoPath": "/skillLogo/Postman.svg",
+        "tital": "Postman"
+    }
+]

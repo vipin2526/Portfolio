@@ -1,0 +1,28 @@
+.linkLogo{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+.outerLinkLogo{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    align-items: flex-end;
+}
+
+
+.connectHeading{
+    margin-top: 40px;
+    list-style: none;
+    text-align: center;
+}
+.connectHeading button{
+   font-size: 17px;
+   border: 2px soild white;
+   border-radius: 7px;
+   padding: 2px;
+   padding-left: 7px;
+   padding-right: 7px;
+   margin: 10px;
+   font-weight: bold;
+}
