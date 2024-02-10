@@ -6,7 +6,7 @@ import About from './Components/About';
 import Skill from './Components/Skill';
 import './Local/Css/Common.css';
 import Header from './Components/Header';
-// import Certificate from './Components/Certificate';
+// import Certificate from './Components/Certificate'; 
 // import './Background/main.css'
 // import start from './Background/main'
 
