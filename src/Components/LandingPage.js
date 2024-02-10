@@ -20,7 +20,7 @@ export default function LandingPage() {
                     </div>
                     <div className="col-6">
                         <div className="myimage">   
-                            <img src="/vippu.png" alt="not found" height={500} />
+                            <img src="vippu.png" alt="not found" height={500} />
                         </div>
 
                     </div>

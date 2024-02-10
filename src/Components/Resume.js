@@ -17,7 +17,7 @@ export default function Resume() {
         <ul className='heading'>
           <li className="headingTital">RESUME</li>
           <li className='headingIcon' onClick={() => (window.open('https://docs.google.com/document/d/1dULLBOPFl-7Unh0R4sqwCvzxyuiOhzlE4VfqtwZjYnU/export?format=pdf'))}>
-            < img src="/download.png" alt="Sorrrrry not found" height={40} />
+            < img src="download.png" alt="Sorrrrry not found" height={40} />
           </li>
         </ul>
 

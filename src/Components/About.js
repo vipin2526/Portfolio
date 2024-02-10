@@ -17,23 +17,23 @@ export default function About() {
           </div>
           <div className="col-7 outerLinkLogo">
             <LinkLogo
-              logoPath="/profileLogo/linkedin.svg"
+              logoPath="profileLogo/linkedin.svg"
               tital="LinkedIn"
               to="https://www.linkedin.com/in/xmartcoder"
             />
             <LinkLogo
-              logoPath="/profileLogo/github.svg"
+              logoPath="profileLogo/github.svg"
               tital="GitHub"
               to="https://github.com/xmartcoder"
             />
 
             <LinkLogo
-              logoPath="/profileLogo/leetcode.svg"
+              logoPath="profileLogo/leetcode.svg"
               tital="LeetCode"
               to="https://leetcode.com/xmartcoder/"
             />
             <LinkLogo
-              logoPath="/profileLogo/hackerrank.svg"
+              logoPath="profileLogo/hackerrank.svg"
               tital="HackerRank"
               to="https://www.hackerrank.com/profile/xmartcoder"
             />

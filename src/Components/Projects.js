@@ -11,7 +11,7 @@ export default function Projects() {
         <ul className='heading'>
           <li className="headingTital">PROJECT</li>
           <li className="headingIcon" onClick={() => (window.open('https://github.com/xmartcoder'))} >
-            <img src="/github.svg" alt="kho gaya hu mai..." height={40} />
+            <img src="github.svg" alt="kho gaya hu mai..." height={40} />
           </li>
         </ul>
 
