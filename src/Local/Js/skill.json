@@ -1,15 +1,23 @@
 [
     {
-        "logoPath": "skillLogo/React.png",
-        "tital": "React"
+        "logoPath": "skillLogo/Cpp.png",
+        "tital": "C++"
+    },
+    {
+        "logoPath": "skillLogo/Javascript.svg",
+        "tital": "JavaScript"
+    },
+    {
+        "logoPath": "skillLogo/Mongo.svg",
+        "tital": "MongoDB"
     },
     {
         "logoPath": "skillLogo/Express.png",
         "tital": "ExpressJs"
     },
     {
-        "logoPath": "skillLogo/Javascript.svg",
-        "tital": "JavaScript"
+        "logoPath": "skillLogo/React.png",
+        "tital": "React"
     },
     {
         "logoPath": "skillLogo/Node.svg",
@@ -32,10 +40,6 @@
         "tital": "Css"
     },
     {
-        "logoPath": "skillLogo/Mongo.svg",
-        "tital": "MongoDB"
-    },
-    {
         "logoPath": "skillLogo/Redux.svg",
         "tital": "Redux"
     },
@@ -56,15 +60,11 @@
         "tital": "Figma"
     },
     {
-        "logoPath": "skillLogo/Cpp.png",
-        "tital": "C++"
+        "logoPath": "skillLogo/Postman.svg",
+        "tital": "Postman"
     },
     {
         "logoPath": "skillLogo/Vscode.svg",
         "tital": "VS Code"
-    },
-    {
-        "logoPath": "skillLogo/Postman.svg",
-        "tital": "Postman"
     }
 ]
