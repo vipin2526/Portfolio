@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://xmartcoder.github.io/Portfolio-Website",
+  "homepage": "https://vipin.itengineer.tech",
   "dependencies": {
     "@cyntler/react-doc-viewer": "^1.14.1",
     "@testing-library/jest-dom": "^5.17.0",
