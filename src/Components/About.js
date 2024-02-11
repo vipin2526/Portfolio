@@ -13,7 +13,7 @@ export default function About() {
 
         <div className="row ">
           <div className="aboutDiscription p-5 pt-0  text-center">
-            Focusing on MERN stack spacially Backend and Cloud field. My proficiency in these technologies allows me to create modern, efficient, and responsive web applications. Additionally, I have a solid foundation in Data Structures and Algorithms (DSA), which helps me optimize code for performance. With a passion for staying updated with industry trends and a commitment to delivering high-quality software, I am well-equipped to contribute to your projects and help your team succeed.
+            Focusing on the MERN stack especially Backend and Cloud field. My proficiency in these technologies allows me to create modern, efficient, and responsive web applications. Additionally, I have a solid foundation in Data Structures and Algorithms (DSA), which helps me optimise code for performance. With a passion for staying updated with industry trends and a commitment to delivering high-quality software, I am well-equipped to contribute to your projects and help your team succeed.
           </div>
           <div className="col-7 outerLinkLogo">
             <LinkLogo

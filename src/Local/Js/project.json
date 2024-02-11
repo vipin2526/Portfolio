@@ -16,7 +16,7 @@
     },
     {
         "name": "Blog Rest API",
-        "description": "It handles DB and server. Routes are Organized manner. Here all we can create, delete and some basic operation of the Blog management.",
+        "description": "It handles DB and server. Routes are Organised manner. Here all we can create, delete and some basic operation of the Blog management.",
         "code": "https://gitlab.com/xmartcoder/blogapi",
         "live": null,
         "technology": [
