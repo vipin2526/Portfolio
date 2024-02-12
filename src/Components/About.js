@@ -4,7 +4,7 @@ import LinkLogo from './LinkLogo'
 
 export default function About() {
   return (
-    <div className='vipbox container ' id='about' >
+    <div className='vipbox container shadoBox' id='about' >
       <div className="aboutBox">
 
         <ul className='heading'>

@@ -5,7 +5,7 @@ import Skills from '../Local/Js/skill.json'
 
 export default function Skill() {
     return (
-        <div className='vipbox container ' id='skill'>
+        <div className='vipbox container shadoBox' id='skill'>
             <div className="skillBox">
 
                 <ul className='heading'>

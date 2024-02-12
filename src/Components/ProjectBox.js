@@ -4,7 +4,7 @@ import LinkLogo from './LinkLogo'
 
 export default function ProjectBox({ project }) {
     return (
-        <div className="container col-md-6 smallProjectBox mb-5">
+        <div className="container col-md-6 smallProjectBox mb-5 ">
 
             <div className="imageBox m-auto overflow-hidden"
                 onClick={() => { if (project.live) window.open(project.live) }}>

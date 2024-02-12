@@ -5,7 +5,7 @@ import Project from '../Local/Js/project.json'
 
 export default function Projects() {
   return (
-    <div className='vipbox container ' id='projects'>
+    <div className='vipbox container shadoBox' id='projects'>
       <div className="projectBox">
 
         <ul className='heading'>
