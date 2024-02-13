@@ -18,3 +18,12 @@
     margin-left: 10px;
     margin-top: 2px;
 }
+
+@media screen and (max-width: 768px) {
+
+    .imageBox{
+        height: 70vw;
+        width: calc(100vw - 5px)
+
+    }
+}

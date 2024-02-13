@@ -18,16 +18,34 @@
     height: 100%;
     list-style: none;
     align-items: center;
-
 }
 
 .headerRoutes>li {
     margin-right: 40px;
     text-align: center;
-
 }
 
 .headerRoutes a {
     text-decoration: none;
     color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        font-size: 10px;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 70px;
+    }
+
+    .headerRoutes {
+        padding-left: 3px;
+    }
+
+    .headerRoutes>li {
+        margin-right: 5px;
+        text-align: center;
+    }
+
 }

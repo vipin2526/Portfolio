@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 .landingPageContent {
     width: 100%;
     flex-grow: 1;
@@ -23,7 +24,6 @@
 
 .myimage {
     height: 100%;
-
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -44,4 +44,37 @@
     margin-top: 15px;
     color: white;
     font-weight: 500;
+}
+
+
+@media screen and (max-width: 768px) {
+    .landingPage{
+        margin-top: 100px;
+    }
+    .myimage>img {
+        opacity: .4;
+    }
+
+    .myimage {
+        z-index: 1;
+    }
+
+    .outerIntroBox {
+        z-index: 2;
+        line-height: 18px;
+        color: rgb(255, 255, 255);
+        padding: 20px 10px 0 0;
+    }
+
+    .outerImageBox {
+        position: absolute;
+        top: 100px;
+        right: 0;
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .introProfession {
+        line-height: 50px !important;
+    }
 }

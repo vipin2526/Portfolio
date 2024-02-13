@@ -7,7 +7,7 @@ export default function LandingPage() {
         <div className="container landingPage vipbox pb-3" id='home'>
             <div className="container-fluit landingPageContent">
                 <div className="row h-100" >
-                    <div className="col-6">
+                    <div className="col-md-6 outerIntroBox">
                         <div className="intro">
                             <div className="introName">Hi I'M VIPIN KUMAR KUSHWAHA</div>
                             <div className="introProfession">I'M A WEB DEVELOPER</div>
@@ -18,11 +18,10 @@ export default function LandingPage() {
                             
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-md-6 outerImageBox">
                         <div className="myimage">   
                             <img src="vippu.png" alt="not found" height={500} />
                         </div>
-
                     </div>
                 </div>
             </div>
