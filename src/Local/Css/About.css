@@ -1,7 +1,7 @@
 .linkLogo{
     text-decoration: none;
     text-align: center;
-    color: white;
+    color: var(--mid-color);
 }
 .outerLinkLogo{
     display: flex;
@@ -18,11 +18,13 @@
 }
 .connectHeading button{
    font-size: 17px;
-   border: 2px soild white;
+   border: 2px soild var(--mid-color);
    border-radius: 7px;
    padding: 2px;
    padding-left: 7px;
    padding-right: 7px;
    margin: 10px;
    font-weight: bold;
+   color: var(--top-color);
+   background-color: var(--mid-light);
 }

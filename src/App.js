@@ -12,7 +12,7 @@ import Header from './Components/Header';
 
 function App() {
   return (
-    <div className="App bg-black">
+    <div className="App dark">
       <Header />
       <LandingPage />
       <Skill />

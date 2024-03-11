@@ -1,58 +1,76 @@
 .vipbox {
-    /* border: 1px solid rgb(255, 255, 255); */
-    border-radius: 20px;
-    margin-bottom: 50px;
-    color: white;
-    max-width: 1000px;
-    display: flex;
-    flex-direction: column;
-    padding:15px 0 30px 0;
-  
+  /* border: 1px solid rgb(255, 255, 255); */
+  border-radius: 20px;
+  margin-bottom: 50px;
+  color: var(--mid-color);
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0 30px 0;
 }
 
-.shadoBox{
-    box-shadow: 0 0 20px white;
+.shadoBox {
+  box-shadow: 0 0 20px var(--mid-color);
 }
-.heading{
-    display: flex;
-    height: 100%;
-    max-height: 50px;
-    list-style: none;
-    align-items: center;
-    position: relative;
-    justify-content: center;
-    padding: 0;
-    padding-bottom: 10px;
-    font-weight: bolder;
-    font-size: 25px;
-}
-
-.headingIcon{
-    position: absolute;
-    right: 3vw;
+.heading {
+  display: flex;
+  height: 100%;
+  max-height: 50px;
+  list-style: none;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  padding: 0;
+  padding-bottom: 10px;
+  font-weight: bolder;
+  font-size: 25px;
 }
 
+.headingIcon {
+  position: absolute;
+  right: 3vw;
+}
+
+.dark {
+  --top-color: rgb(0, 0, 0);
+  --top-light: rgb(37, 37, 37);
+  --mid-color: rgb(255, 255, 255);
+  --mid-light: rgb(198, 198, 198);
+  --bootom-color: gray;
+}
+.light {
+  --top-color: rgb(255, 255, 255);
+  --top-light: #dcdcdc;
+  --mid-color: rgb(0, 0, 0);
+  --mid-light: rgb(40, 40, 40);
+  --bootom-color: gray;
+
+  #resume {
+    box-shadow: 0 0 20px var(--mid-color);
+  }
+}
+.App {
+  background-color: var(--top-color);
+}
+@media screen and (max-width: 768px) {
+  .App {
+    overflow: hidden;
+    padding: 5px;
+  }
+}
 
 .App {
-    -webkit-touch-callout: none;
-    /* iOS Safari */
-    -webkit-user-select: none;
-    /* Safari */
-    -khtml-user-select: none;
-    /* Konqueror HTML */
-    -moz-user-select: none;
-    /* Firefox */
-    -ms-user-select: none;
-    /* Internet Explorer/Edge */
-    user-select: none;
-    /* Non-prefixed version, currently
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
                                   supported by Chrome and Opera */
-}
-
-
-@media screen and (max-width: 768px) {
-   .App{
-     overflow: hidden;
-     padding: 5px;
-   }
 }
