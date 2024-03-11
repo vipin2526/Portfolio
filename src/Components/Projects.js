@@ -2,6 +2,7 @@ import React from 'react'
 import ProjectBox from './ProjectBox'
 import '../Local/Css/Projects.css'
 import Project from '../Local/Js/project.json'
+import LinkLogo from './LinkLogo'
 
 export default function Projects() {
   return (
@@ -10,8 +11,13 @@ export default function Projects() {
 
         <ul className='heading'>
           <li className="headingTital">PROJECT</li>
-          <li className="headingIcon" onClick={() => (window.open('https://github.com/xmartcoder'))} >
-            <img src="github.svg" alt="kho gaya hu mai..." height={40} />
+          <li className="headingIcon" >
+            <LinkLogo
+              to={'https://github.com/xmartcoder'}
+              logoPath={"github.svg"}
+              height={40}
+              alt={'kho gaya hu mai'}
+            />
           </li>
         </ul>
 

@@ -48,6 +48,14 @@
   #resume {
     box-shadow: 0 0 20px var(--mid-color);
   }
+  #about .linkLogo > img {
+    background-color: black;
+    border-radius: 5px;
+  }
+  #projects .linkLogo > img {
+    background-color: black;
+    border-radius: 5px;
+  }
 }
 .App {
   background-color: var(--top-color);
