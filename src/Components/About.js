@@ -38,9 +38,6 @@ export default function About() {
               to="https://www.hackerrank.com/profile/xmartcoder"
             />
           </div>
-
-
-
         </div>
 
         <ul className="connectHeading">
