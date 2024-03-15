@@ -20,6 +20,7 @@
 .introProfession {
     font-size: 3.2rem;
     font-weight: 1000;
+    line-height: normal;
 }
 
 .myimage {
@@ -50,6 +51,7 @@
 @media screen and (max-width: 768px) {
     .landingPage{
         margin-top: 100px;
+        overflow: hidden;
     }
     .myimage>img {
         opacity: .4;
@@ -77,9 +79,4 @@
     .introProfession {
         line-height: 50px !important;
     }
-}
-
-
-.viii{
-    fill:"yello"
 }
