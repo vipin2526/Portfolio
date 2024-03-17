@@ -29,7 +29,7 @@ This portfolio website is designed to provide visitors with an overview of who I
 If you have any suggestions for improvements, bug fixes, or new features, please feel free to open an issue or submit a pull request. Contributions are welcome and greatly appreciated!
 
 ### Contact
-If you have any questions or would like to get in touch, you can reach me via email at [xmartcoder@gmail.com](mailto:xmartcoder@gmail.com).
+If you have any questions or would like to get in touch, you can reach me via email at [vipinkushwaha2526@gmail.com](mailto:vipinkushwaha2526@gmail.com).
 
 Thank you for visiting my portfolio website repository!
 

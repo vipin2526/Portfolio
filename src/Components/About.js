@@ -19,30 +19,30 @@ export default function About() {
             <LinkLogo
               logoPath="profileLogo/linkedin.svg"
               tital="LinkedIn"
-              to="https://www.linkedin.com/in/xmartcoder"
+              to="https://www.linkedin.com/in/vipin2526"
             />
             <LinkLogo
               logoPath="profileLogo/github.svg"
               tital="GitHub"
-              to="https://github.com/xmartcoder"
+              to="https://github.com/vipin2526"
             />
 
             <LinkLogo
               logoPath="profileLogo/leetcode.svg"
               tital="LeetCode"
-              to="https://leetcode.com/xmartcoder/"
+              to="https://leetcode.com/vipin2526/"
             />
             <LinkLogo
               logoPath="profileLogo/hackerrank.svg"
               tital="HackerRank"
-              to="https://www.hackerrank.com/profile/xmartcoder"
+              to="https://www.hackerrank.com/profile/vipin2526"
             />
           </div>
         </div>
 
         <ul className="connectHeading">
           <li className='headingTital fs-4 mt-4'>Connect To Me</li>
-          <button >Mail Id:- xmartcoder@gmail.com</button>
+          <button >Mail Id:- vipinkushwaha2526@gmail.com</button>
           <button>Phone No:- 9140067270</button>
         </ul>
 

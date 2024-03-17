@@ -13,7 +13,7 @@ export default function Projects() {
           <li className="headingTital">PROJECT</li>
           <li className="headingIcon" >
             <LinkLogo
-              to={'https://github.com/xmartcoder'}
+              to={'https://github.com/vipin2526'}
               logoPath={"github.svg"}
               height={40}
               alt={'kho gaya hu mai'}

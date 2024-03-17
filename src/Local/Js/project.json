@@ -2,8 +2,8 @@
     {
         "name": "Movie Ticket Booking Website",
         "description": "In this Project I have made a website for movie ticket booking based on ReactJS. Here the customer can book his ticket using simple user-Interface.",
-        "code": "https://github.com/xmartcoder/Book-Famous-Show/",
-        "live": "https://xmartcoder.github.io/Book-Famous-Show/",
+        "code": "https://github.com/vipin2526/Book-Famous-Show/",
+        "live": "https://vipin2526.github.io/Book-Famous-Show/",
         "technology": [
             "HTML",
             "CSS",
@@ -15,8 +15,8 @@
     {
         "name": "Weather Condition",
         "description": "It shows the Weather Condition of Current Time. Here I create this with a very simple user-interface so that users can use it very easily.",
-        "code": "https://github.com/xmartcoder/Weather-React-App/",
-        "live": "https://xmartcoder.github.io/Weather-React-App/",
+        "code": "https://github.com/vipin2526/Weather-React-App/",
+        "live": "https://vipin2526.github.io/Weather-React-App/",
         "technology": [
             "HTML",
             "CSS",
@@ -28,8 +28,8 @@
     {
         "name": "Typing-Bubble-Game",
         "description": "Creative and Engaging game, this game focuses on improving typing speed and accuracy through interactive gameplay.",
-        "code": "https://github.com/xmartcoder/Typing-Bubble-Game/",
-        "live": "https://xmartcoder.github.io/Typing-Bubble-Game/",
+        "code": "https://github.com/vipin2526/Typing-Bubble-Game/",
+        "live": "https://vipin2526.github.io/Typing-Bubble-Game/",
         "technology": [
             "HTML",
             "CSS",
@@ -40,7 +40,7 @@
     {
         "name": "Simple and Interactive Clock",
         "description": "It is an Analog Clock which shows time, any developer can use this on his website by using the CDN link and can modify it.",
-        "code": "https://github.com/xmartcoder/Analog-Clock",
+        "code": "https://github.com/vipin2526/Analog-Clock",
         "live": "https://clock.itengineer.tech/",
         "technology": [
             "HTML",
@@ -52,7 +52,7 @@
     {
         "name": "E-Commerce Full Fledged Website",
         "description": "It is an E-Commerce website for buying Vegetables. Here the customers can find fresh vegetables and also can order the vegetables at the market price.",
-        "code": "https://github.com/xmartcoder/e-commerce",
+        "code": "https://github.com/vipin2526/e-commerce",
         "live": "https://vip-ts8o.onrender.com/",
         "technology": [
             "HTML",
@@ -68,7 +68,7 @@
     {
         "name": "Blog Rest API",
         "description": "It handles DB and server. Routes are Organised manner. Here all we can create, delete and some basic operation of the Blog management.",
-        "code": "https://gitlab.com/xmartcoder/blogapi",
+        "code": "https://gitlab.com/vipin2526/blogapi",
         "live": null,
         "technology": [
             "Node.js",
