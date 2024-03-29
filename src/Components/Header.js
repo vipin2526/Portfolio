@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import '../Local/Css/Header.css'
 import LinkLogo from './LinkLogo'
-import gsap from 'gsap'
+import gsap from 'gsap';
 
 
 export default function Header() {

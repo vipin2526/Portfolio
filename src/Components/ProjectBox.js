@@ -1,10 +1,15 @@
 import React from 'react'
 import LinkLogo from './LinkLogo'
-
+import { motion } from 'framer-motion'
+import { fadeIn } from '../Local/motion'
 
 export default function ProjectBox({ project }) {
     return (
-        <div className="container col-md-6 smallProjectBox mb-5 ">
+        <motion.div
+            variants={fadeIn('up', 'tween', 0.15, .5)}
+            initial='hidden'
+            whileInView="show"
+            className="container col-md-6 smallProjectBox mb-5 ">
 
             <div className="imageBox m-auto overflow-hidden"
                 onClick={() => { if (project.live) window.open(project.live) }}>
@@ -35,6 +40,6 @@ export default function ProjectBox({ project }) {
                 </div>
 
             </div>
-        </div>
+        </motion.div>
     )
 }

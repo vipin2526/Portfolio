@@ -1,10 +1,17 @@
 import React from 'react'
 import '../Local/Css/About.css'
 import LinkLogo from './LinkLogo'
+import { motion } from 'framer-motion';
+import { fadeIn } from '../Local/motion';
 
 export default function About() {
   return (
-    <div className='vipbox container shadoBox' id='about' >
+    <motion.div
+      variants={fadeIn('up', 'tween', .25, 1)}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.25 }}
+      className='vipbox container shadoBox' id='about' >
       <div className="aboutBox">
 
         <ul className='heading'>
@@ -12,10 +19,12 @@ export default function About() {
         </ul>
 
         <div className="row ">
-          <div className="aboutDiscription p-5 pt-0  text-center">
+          <motion.div
+            variants={fadeIn("up", "tween", .4, .7)}
+            className="aboutDiscription p-5 pt-0  text-center">
             Focusing on the MERN stack especially Backend and Cloud field. My proficiency in these technologies allows me to create modern, efficient, and responsive web applications. Additionally, I have a solid foundation in Data Structures and Algorithms (DSA), which helps me optimise code for performance. With a passion for staying updated with industry trends and a commitment to delivering high-quality software, I am well-equipped to contribute to your projects and help your team succeed.
-          </div>
-          <div className="col-7 outerLinkLogo">
+          </motion.div>
+          <motion.div variants={fadeIn('up', 'tween', .6, .5)} className="col-7 outerLinkLogo">
             <LinkLogo
               logoPath="profileLogo/linkedin.svg"
               tital="LinkedIn"
@@ -37,17 +46,19 @@ export default function About() {
               tital="HackerRank"
               to="https://www.hackerrank.com/profile/vipin2526"
             />
-          </div>
+          </motion.div>
         </div>
 
-        <ul className="connectHeading">
+        <motion.ul
+          variants={fadeIn("up", "tween", .8, .4)}
+          className="connectHeading">
           <li className='headingTital fs-4 mt-4'>Connect To Me</li>
           <button >Mail Id:- vipinkushwaha2526@gmail.com</button>
           <button>Phone No:- 9140067270</button>
-        </ul>
+        </motion.ul>
 
 
       </div>
-    </div>
+    </motion.div>
   )
 }
