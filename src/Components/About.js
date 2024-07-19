@@ -39,7 +39,7 @@ export default function About() {
             <LinkLogo
               logoPath="profileLogo/leetcode.svg"
               tital="LeetCode"
-              to="https://leetcode.com/vipin2526/"
+              to="https://leetcode.com/vipinkushwaha2526/"
             />
             <LinkLogo
               logoPath="profileLogo/hackerrank.svg"
