@@ -30,7 +30,7 @@ export default function Header() {
         <li><a href="#skill">SKILL</a></li>
         <li><a href="#about">ABOUT ME</a></li>
         <li><a href="#projects">PROJECTS</a></li>
-        <li><a href="#resume">RESUME</a></li>
+        {/* <li><a href="#resume">RESUME</a></li> */}
         <div onClick={changeTheme} >
           <LinkLogo
             logoPath={`${(theme === 'light') ? 'dark' : 'light'}.svg`}

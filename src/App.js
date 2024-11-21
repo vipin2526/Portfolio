@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import LandingPage from './Components/LandingPage';
 import Projects from './Components/Projects';
-import Resume from './Components/Resume';
+// import Resume from './Components/Resume';
 import About from './Components/About';
 import Skill from './Components/Skill';
 import './Local/Css/Common.css';
@@ -12,13 +12,13 @@ import Header from './Components/Header';
 
 function App() {
   return (
-    <div className="App dark">
+    <div className="App dark pb-5">
       <Header />
       <LandingPage />
       <Skill />
       <About />
       <Projects />
-      <Resume />
+      {/* <Resume /> */}
       {/* <Certificate /> */}
 
       {/* <div id="background" onClick={()=>start()}></div> */}
